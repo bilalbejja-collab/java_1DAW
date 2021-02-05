@@ -1,0 +1,57 @@
+[
+  {
+    "dni": "12331231A",
+    "apellidos": "Martinez Guirado",
+    "nombre": "Pepe",
+    "sueldo": 1694.99,
+    "fechaContratacion": {
+      "year": 2018,
+      "month": 1,
+      "day": 24
+    }
+  },
+  {
+    "dni": "23423434F",
+    "apellidos": "López Guirado",
+    "nombre": "Ana",
+    "sueldo": 1000.0,
+    "fechaContratacion": {
+      "year": 2010,
+      "month": 2,
+      "day": 1
+    }
+  },
+  {
+    "dni": "64564444H",
+    "apellidos": "Mariena Bueno",
+    "nombre": "Zoe",
+    "sueldo": 1200.0,
+    "fechaContratacion": {
+      "year": 2019,
+      "month": 3,
+      "day": 2
+    }
+  },
+  {
+    "dni": "6456234H",
+    "apellidos": "Garcia Pineda",
+    "nombre": "Bea",
+    "sueldo": 1100.0,
+    "fechaContratacion": {
+      "year": 2019,
+      "month": 5,
+      "day": 2
+    }
+  },
+  {
+    "dni": "6456234H",
+    "apellidos": "Diaz Sánchez",
+    "nombre": "Yolanda",
+    "sueldo": 1500.0,
+    "fechaContratacion": {
+      "year": 2010,
+      "month": 2,
+      "day": 7
+    }
+  }
+]

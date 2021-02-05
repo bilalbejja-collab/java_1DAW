@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+
+    <html  dir="ltr" lang="en" xml:lang="en">
+    <head>
+        <title>Error</title>
+        <link rel="shortcut icon" href="https://educacionadistancia.juntadeandalucia.es/centros/pluginfile.php/1/theme_moove/favicon/1586968676/favicon.ico" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Error" />
+<script type="text/javascript" src="https://educacionadistancia.juntadeandalucia.es/ruxitagentjs_ICA2SVfhqru_10187200323152418.js" data-dtconfig="rid=RID_1697605910|rpid=-1394946986|domain=juntadeandalucia.es|reportUrl=/rb_ff94954a-6c99-4a24-a824-477d78373cea|app=5e7445692bcd30b0|featureHash=ICA2SVfhqru|rdnt=1|uxrgce=1|bp=2|cuc=rpvxpcq5|srms=1,1,,,|uxrgcm=100,25,300,3;100,25,300,3|dpvc=1|md=1=a#actionmenuaction-1|lastModification=1586844692431|dtVersion=10187200323152418|tp=500,50,0,1|uxdcw=1500|agentUri=/ruxitagentjs_ICA2SVfhqru_10187200323152418.js"></script><link rel="stylesheet" type="text/css" href="https://educacionadistancia.juntadeandalucia.es/centros/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://educacionadistancia.juntadeandalucia.es/centros/theme/styles.php/moove/1586968676_1/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/educacionadistancia.juntadeandalucia.es\/centros","sesskey":"tCjpX5L8FV","themerev":"1586968676","slasharguments":1,"theme":"moove","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1586950773","admin":"admin","svgicons":true,"usertimezone":"Europe\/Madrid","contextid":1};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/educacionadistancia.juntadeandalucia.es\/centros\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/educacionadistancia.juntadeandalucia.es\/centros\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/educacionadistancia.juntadeandalucia.es\/centros\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/educacionadistancia.juntadeandalucia.es\/centros\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/educacionadistancia.juntadeandalucia.es\/centros\/theme\/yui_combo.php?m\/1586950773\/","combine":true,"comboBase":"https:\/\/educacionadistancia.juntadeandalucia.es\/centros\/theme\/yui_combo.php?","ext":false,"root":"m\/1586950773\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_xp-filters":{"requires":["base","node","moodle-core-dragdrop","moodle-block_xp-rulepicker"]},"moodle-block_xp-rulepicker":{"requires":["base","node","handlebars","moodle-core-notification-dialogue"]},"moodle-block_xp-notification":{"requires":["base","node","handlebars","button-plugin","moodle-core-notification-dialogue"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_htmlplus-codemirror":{"requires":["moodle-atto_htmlplus-codemirror-skin"]},"moodle-atto_htmlplus-beautify":{},"moodle-atto_htmlplus-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_htmlplus-beautify","moodle-atto_htmlplus-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_wiris-button":{"requires":["moodle-editor_atto-plugin","get"]}}},"gallery":{"name":"gallery","base":"https:\/\/educacionadistancia.juntadeandalucia.es\/centros\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/educacionadistancia.juntadeandalucia.es\/centros\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1586950773\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/educacionadistancia.juntadeandalucia.es\/centros\/lib\/javascript.php\/1586950773\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/educacionadistancia.juntadeandalucia.es\/centros\/lib\/javascript.php\/1586950773\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<script>
+                                    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
+                                    ga.l=+new Date;ga('create', 'UA-160775009-1', 'auto');
+                                    ga('send', 'pageview');
+                                </script>
+                                <script async src='https://www.google-analytics.com/analytics.js'></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    </head>
+    
+    <body  id="page-site-index" class="format-site course path-site gecko dir-ltr lang-en yui-skin-sam yui3-skin-sam educacionadistancia-juntadeandalucia-es--centros pagelayout-base course-1 context-1 ">
+    
+<div class="header-ayesa moodle-has-zindex" >
+    <div class="d-flex">
+        <div class="col-logo">
+            <a href="https://educacionadistancia.juntadeandalucia.es/centros">
+            <span class="logo d-md-inline">
+                <img src="https://educacionadistancia.juntadeandalucia.es/centros/theme/image.php/moove/theme/1586968676/logo_moodle_centros" alt="moodle-centros" class="logoplataforma">
+            </span>
+            </a>
+        </div>
+        <div class="flex-grow-1 info-centro">
+                <div>
+                    <span>Centro:</span><br>
+                    I.E.S. Jaroso
+                </div>
+
+        </div>
+        <div class="ml-auto d-none d-sm-inline col-andalucia">
+                <span class="logo d-none d-sm-inline">
+                    <img src="https://educacionadistancia.juntadeandalucia.es/centros/pluginfile.php/1/theme_moove/logo/1586968676/logo_junta.svg" alt="moodle-centros" class="logoandalucia">
+                </span>
+        </div>
+    </div>
+
+
+
+
+
+<!--    <a href="https://educacionadistancia.juntadeandalucia.es/centros" class="navbar-brand has-logo-->
+<!--        -->
+<!--            ">-->
+<!--        -->
+<!--            &lt;!&ndash;<span class="logo d-sm-inline">&ndash;&gt;-->
+<!--                &lt;!&ndash;<img src="//educacionadistancia.juntadeandalucia.es/centros/pluginfile.php/1/theme_moove/logo/1586968676/logo_junta.svg" alt="moodle-centros">&ndash;&gt;-->
+<!--            &lt;!&ndash;</span>&ndash;&gt;-->
+<!--            <span class="logo d-none d-md-inline">-->
+<!--                <img src="//educacionadistancia.juntadeandalucia.es/centros/pluginfile.php/1/theme_moove/logo/1586968676/logo_junta.svg" alt="moodle-centros">-->
+<!--            </span>-->
+<!--            <span class="logo d-inline d-sm-inline d-md-none">-->
+<!--                <img src="https://educacionadistancia.juntadeandalucia.es/centros/theme/moove/pix/logo_responsive_bg.png" alt="moodle-centros">-->
+<!--            </span>-->
+<!--        -->
+<!--        -->
+<!--    </a>-->
+<!--	<h3>-->
+<!--        &lt;!&ndash;Para centros solo se pone la consejeria&ndash;&gt;-->
+<!--    &lt;!&ndash; EDUCACIÓN SEMIPRESENCIAL -->
+<!--        &ndash;&gt;-->
+<!--       Consejería de Educación y Deporte-->
+<!--    </h3>-->
+<!--	<h4></h4>-->
+<!--	-->
+<!--		<h5>I.E.S. Jaroso</h5>-->
+<!--	-->
+    
+</div>
+<nav class="fixed-top navbar navbar-light navbar-expand moodle-has-zindex" >
+        <div data-region="drawer-toggle" class="d-inline-block mr-3 drawer-toggle">
+	        <button id="btn-left" aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav">
+		        <i class="menu-left"></i>
+		        <span class="sr-only">Side panel</span>
+	        </button>
+        </div>
+
+
+    <ul class="navbar-nav d-none d-md-flex custom-menus">
+        <!-- custom_menu -->
+        
+        <!-- page_heading_menu -->
+        
+
+		    <strong class="course-name">Moodle Centros</strong>
+    </ul>
+    <ul class="nav navbar-nav ml-auto">
+	    <div class="pull-right popover-region collapsed">
+		   <a id="expand-compress-menu" class="nav-link d-inline-block popover-region-toggle position-relative" href="#" role="button" data-expanded="false">
+			    <i class="fa fa-expand" title="Mostrar/ocultar cabecera" aria-label="Mostrar/ocultar cabecera"></i>
+            </a>
+	    </div>
+        <div class="d-none d-lg-block">
+            
+        </div>
+
+        <li class="nav-item lang-menu">
+            
+        </li>
+        <li class="nav-item nav-help">
+            <span class="nav-item"><a id="help" class="nav-item" href="https://educacionadistancia.juntadeandalucia.es/centros/login/forgot_password.php?token=1"><i class="fa fa-question-circle"></i></a></span>
+
+        </li>
+
+        <div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="97956"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        role="button"
+        aria-controls="popover-region-container-5e978dfe0ee755e978dfe0afd82"
+        aria-haspopup="true"
+        aria-label="Show notification window with no new notifications"
+        tabindex="0">
+                <i class="fa  fa-bell-o" title="Toggle notifications menu"></i>
+        <!--<div class="count-container hidden" data-region="count-container">0</div>-->
+
+    </div>
+    <div 
+        id="popover-region-container-5e978dfe0ee755e978dfe0afd82"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="hover-tooltip-container">
+                    <a class="mark-all-read-button"
+                    href="#"
+                    title="Mark all as read"
+                    data-action="mark-all-read"
+                    role="button">
+                    <span class="normal-icon"><i class="icon fa fa-check fa-fw" alt="Mark all as read"></i></span>
+                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
+                </a>
+
+    <div class="hover-tooltip">
+        Mark all as read
+    </div>
+</div>
+        <div class="hover-tooltip-container">
+                    <a href="https://educacionadistancia.juntadeandalucia.es/centros/message/notificationpreferences.php?userid=97956"
+                    title="Notification preferences">
+                    <i class="icon fa fa-cog fa-fw" alt="Notification preferences"></i>
+                </a>
+
+    <div class="hover-tooltip">
+        Notification preferences
+    </div>
+</div>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://educacionadistancia.juntadeandalucia.es/centros/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed popover-region-mail "
+            id="nav-mail-popover-container"
+
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        role="button"
+        aria-controls="popover-region-container-5e978dfe147d65e978dfe0afd83"
+        aria-haspopup="true"
+        aria-label="Toggle mail menu"
+        tabindex="0">
+                <i class="icon fa fa-envelope fa-fw "  title="Toggle mail menu" aria-label="Toggle mail menu"></i>
+
+    </div>
+    <div 
+        id="popover-region-container-5e978dfe147d65e978dfe0afd83"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Mail menu"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Mail</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a href="https://educacionadistancia.juntadeandalucia.es/centros/local/mail/create.php" class="mail-navbar-menu-compose-link">
+            Compose
+        </a>
+        <a href="https://educacionadistancia.juntadeandalucia.es/centros/local/mail/preferences.php" title="Preferences">
+          <!--Modificacion Javi:   Icono de las preferencias-->
+            <!--<i class="icon fa slicon-settings fa-fw "  title="Preferences" aria-label="Preferences"></i>-->
+            <i class="icon fa color-primary fa-cog fa-fw" title = 'Preferences' aria-label="Preferences"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="mail-navbar-menu">
+            <a href="https://educacionadistancia.juntadeandalucia.es/centros/local/mail/view.php?t=inbox" 
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <!--Modificacion JAVI: Iconos de los elementos del corre0. Lo pongo con el color primary del tema-->
+                <!--<i class="icon fa fa-inbox fa-fw "   ></i>-->
+                <i class="icon fa color-primary  fa-inbox fa-fw"></i>
+                Inbox
+            </a>
+            <a href="https://educacionadistancia.juntadeandalucia.es/centros/local/mail/view.php?t=starred" 
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <!--Modificacion JAVI: Iconos de los elementos del corre0. Lo pongo con el color primary del tema-->
+                <!--<i class="icon fa fa-star fa-fw "   ></i>-->
+                <i class="icon fa color-primary  fa-star fa-fw"></i>
+                Starred
+            </a>
+            <a href="https://educacionadistancia.juntadeandalucia.es/centros/local/mail/view.php?t=drafts" 
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <!--Modificacion JAVI: Iconos de los elementos del corre0. Lo pongo con el color primary del tema-->
+                <!--<i class="icon fa fa-file fa-fw "   ></i>-->
+                <i class="icon fa color-primary  fa-file fa-fw"></i>
+                Drafts
+            </a>
+            <a href="https://educacionadistancia.juntadeandalucia.es/centros/local/mail/view.php?t=sent" 
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <!--Modificacion JAVI: Iconos de los elementos del corre0. Lo pongo con el color primary del tema-->
+                <!--<i class="icon fa fa-paper-plane fa-fw "   ></i>-->
+                <i class="icon fa color-primary  fa-paper-plane fa-fw"></i>
+                Sent
+            </a>
+            <a href="https://educacionadistancia.juntadeandalucia.es/centros/local/mail/view.php?t=trash" 
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <!--Modificacion JAVI: Iconos de los elementos del corre0. Lo pongo con el color primary del tema-->
+                <!--<i class="icon fa fa-trash fa-fw "   ></i>-->
+                <i class="icon fa color-primary  fa-trash fa-fw"></i>
+                Trash
+            </a>
+            <a href="https://educacionadistancia.juntadeandalucia.es/centros/local/mail/view.php?t=course&amp;c=3928" title="Punto de encuentro del I.E.S. Jaroso"
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <!--Modificacion JAVI: Iconos de los elementos del corre0. Lo pongo con el color primary del tema-->
+                <!--<i class="icon fa fa-university fa-fw "   ></i>-->
+                <i class="icon fa color-primary  fa-university fa-fw"></i>
+                4002052_punto_encuentro
+            </a>
+            <a href="https://educacionadistancia.juntadeandalucia.es/centros/local/mail/view.php?t=course&amp;c=4009" title="Despliegue de aplicaciones web"
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <!--Modificacion JAVI: Iconos de los elementos del corre0. Lo pongo con el color primary del tema-->
+                <!--<i class="icon fa fa-university fa-fw "   ></i>-->
+                <i class="icon fa color-primary  fa-university fa-fw"></i>
+                2DAWDespliegue
+            </a>
+            <a href="https://educacionadistancia.juntadeandalucia.es/centros/local/mail/view.php?t=course&amp;c=4010" title="Diseño de interfaces Web"
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <!--Modificacion JAVI: Iconos de los elementos del corre0. Lo pongo con el color primary del tema-->
+                <!--<i class="icon fa fa-university fa-fw "   ></i>-->
+                <i class="icon fa color-primary  fa-university fa-fw"></i>
+                2DAWDISEÑO
+            </a>
+            <a href="https://educacionadistancia.juntadeandalucia.es/centros/local/mail/view.php?t=course&amp;c=4012" title="Programación"
+                class="mail-navbar-menu-item
+                    
+                    ">
+                
+                
+                <!--Modificacion JAVI: Iconos de los elementos del corre0. Lo pongo con el color primary del tema-->
+                <!--<i class="icon fa fa-university fa-fw "   ></i>-->
+                <i class="icon fa color-primary  fa-university fa-fw"></i>
+                1DAWPROG
+            </a>
+        </div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
+        </div>
+    </div>
+</div>
+
+        <li class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-1-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="#" tabindex="0" class=" dropdown-toggle icon-no-margin" id="dropdown-1" aria-label="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
+                            
+                            <span class="userbutton"><span class="usertext"></span><span class="avatars"><span class="avatar current"><img src="https://educacionadistancia.juntadeandalucia.es/centros/pluginfile.php/313796/user/icon/moove/f2?rev=3907537" class="userpicture" width="35" height="35" role="presentation" aria-hidden="true" /></span></span></span>
+                                
+                            <b class="caret"></b>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br" id="dropdown-menu-1">
+                                        <a href="https://educacionadistancia.juntadeandalucia.es/centros/user/profile.php?id=97956" class="dropdown-item text-username menu-action" role="menuitem" aria-labelledby="actionmenuaction-1">
+                                                <i class="icon fa slicon-user fa-fw "  title="Bilal Bejja" aria-label="Bilal Bejja"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-1">
+                                                Bilal Bejja
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://educacionadistancia.juntadeandalucia.es/centros/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-2">
+                                                <i class="icon fa slicon-speedometer fa-fw "  title="Dashboard" aria-label="Dashboard"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-2">
+                                                Dashboard
+                                            </span>
+                                        </a>
+                                        <a href="https://educacionadistancia.juntadeandalucia.es/centros/user/profile.php?id=97956" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-3">
+                                                <i class="icon fa slicon-user fa-fw "  title="Profile" aria-label="Profile"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-3">
+                                                Profile
+                                            </span>
+                                        </a>
+                                        <a href="https://educacionadistancia.juntadeandalucia.es/centros/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-4">
+                                                <i class="icon fa slicon-book-open fa-fw "  title="Grades" aria-label="Grades"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-4">
+                                                Grades
+                                            </span>
+                                        </a>
+                                        <a href="https://educacionadistancia.juntadeandalucia.es/centros/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-5">
+                                                <i class="icon fa slicon-bubble fa-fw "  title="Messages" aria-label="Messages"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-5">
+                                                Messages
+                                            </span>
+                                        </a>
+                                        <a href="https://educacionadistancia.juntadeandalucia.es/centros/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-6">
+                                                <i class="icon fa slicon-wrench fa-fw "  title="Preferences" aria-label="Preferences"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-6">
+                                                Preferences
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://educacionadistancia.juntadeandalucia.es/centros/login/logout.php?sesskey=tCjpX5L8FV" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-7">
+                                                <i class="icon fa slicon-logout fa-fw "  title="Log out" aria-label="Log out"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-7">
+                                                Log out
+                                            </span>
+                                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></li>
+    </ul>
+</nav>
+
+<button id="btn-scroll-up" type="button" class="btn btn-secondary">
+	<i class="fa fa-arrow-circle-up fa-3x"></i>
+</button>
+
+    
+    <div id="page-wrapper"     >
+    
+        <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="https://educacionadistancia.juntadeandalucia.es/centros/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://educacionadistancia.juntadeandalucia.es/centros/lib/javascript.php/1586950773/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row">
+    <div class="col-12 pt-3 pb-3">
+        <div class="card ">
+            <div class="card-body ">
+                <div class="d-flex">
+                    <div class="mr-auto">
+                        <div class="page-context-header"><div class="page-header-headings"><h1>Moodle Centros</h1></div></div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div id="page-navbar">
+                        <nav role="navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://educacionadistancia.juntadeandalucia.es/centros/my/" >Dashboard</a></li>
+                <li class="breadcrumb-item"><a href="https://educacionadistancia.juntadeandalucia.es/centros/?redirect=0" >Site home</a></li>
+    </ol>
+</nav>
+                    </div>
+                    <div class="ml-auto d-flex">
+                        
+                    </div>
+                    <div id="course-header">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-12">
+                <section id="region-main">
+                    <div class="card">
+                        <div class="card-body">
+                            <span class="notifications" id="user-notifications"></span>
+                            <div role="main"><span id="maincontent"></span><div data-rel="fatalerror" class="box errorbox alert alert-danger py-3"><p class="errormessage">A required parameter (id) was missing</p><p class="errorcode"><a href="https://docs.moodle.org/36/en/error/moodle/missingparam">More information about this error</a></p></div><div class="continuebutton">
+    <form method="get" action="https://educacionadistancia.juntadeandalucia.es/centros/" >
+        <button type="submit" class="btn btn-primary"
+            id="single_button5e978dfe0afd813"
+            title=""
+            >Continue</button>
+    </form>
+</div></div>
+                            
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="col-auto d-xs-inline d-sm-none logo-login">
+            <span class="logo ">
+                <img src="https://educacionadistancia.juntadeandalucia.es/centros/theme/image.php/moove/theme/1586968676/logo_junta" alt="moodle-centros" class="logoandalucia">
+            </span>
+
+        </div>
+    </div>
+
+    
+        
+    
+            <div id="nav-drawer" data-region="drawer"              class="hidden-print moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+               <ul class="list-group metismenu">
+                               <li class="list-group-item list-group-item-action " data-key="myhome">
+                                   <a href="https://educacionadistancia.juntadeandalucia.es/centros/my/">
+                                       <span class="text m-l-0">Dashboard</span>
+                                   </a>
+                               </li>
+                               <li class="list-group-item list-group-item-action " data-key="calendar">
+                                   <a href="https://educacionadistancia.juntadeandalucia.es/centros/calendar/view.php?view=month">
+                                       <span class="text m-l-0">Calendar</span>
+                                   </a>
+                               </li>
+                               <li class="list-group-item list-group-item-action " data-key="privatefiles">
+                                   <a href="https://educacionadistancia.juntadeandalucia.es/centros/user/files.php">
+                                       <span class="text m-l-0">Private files</span>
+                                   </a>
+                               </li>
+                           <li class="list-group-item" data-key="mycourses">
+                               <a class="m-l-0 has-arrow" href="javascript:void(0);">
+                                   <span class="text">My courses</span>
+                               </a>
+                               <ul>
+                                           <li class="list-group-item list-group-item-action " data-key="3928">
+                                               <a class="list-group-item list-group-item-action "
+                                                  href="https://educacionadistancia.juntadeandalucia.es/centros/course/view.php?id=3928">
+                                                   <span class="text">4002052_punto_encuentro</span>
+                                               </a>
+               
+                                           </li>
+                                           <li class="list-group-item list-group-item-action " data-key="4009">
+                                               <a class="list-group-item list-group-item-action "
+                                                  href="https://educacionadistancia.juntadeandalucia.es/centros/course/view.php?id=4009">
+                                                   <span class="text">2DAWDespliegue</span>
+                                               </a>
+               
+                                           </li>
+                                           <li class="list-group-item list-group-item-action " data-key="4010">
+                                               <a class="list-group-item list-group-item-action "
+                                                  href="https://educacionadistancia.juntadeandalucia.es/centros/course/view.php?id=4010">
+                                                   <span class="text">2DAWDISEÑO</span>
+                                               </a>
+               
+                                           </li>
+                                           <li class="list-group-item list-group-item-action " data-key="4012">
+                                               <a class="list-group-item list-group-item-action "
+                                                  href="https://educacionadistancia.juntadeandalucia.es/centros/course/view.php?id=4012">
+                                                   <span class="text">1DAWPROG</span>
+                                               </a>
+               
+                                           </li>
+                               </ul>
+                           </li>
+               </ul>            </div>
+    </div><!-- Ends .page-wrapper -->
+    
+
+
+<script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://educacionadistancia.juntadeandalucia.es/centros/lib/requirejs.php/1586950773/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://educacionadistancia.juntadeandalucia.es/centros/lib/javascript.php/1586950773/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://educacionadistancia.juntadeandalucia.es/centros/lib/javascript.php/1586950773/lib/jquery/ui-1.12.1/jquery-ui.min',
+        //Modificacion: añade jquerys externos
+        select2: 'https://educacionadistancia.juntadeandalucia.es/centros/lib/javascript.php/1586950773/lib/jquery/select2/select2.min',
+        loading: 'https://educacionadistancia.juntadeandalucia.es/centros/lib/javascript.php/1586950773/lib/jquery/loading/loading',
+        jqueryprivate: 'https://educacionadistancia.juntadeandalucia.es/centros/lib/javascript.php/1586950773/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://educacionadistancia.juntadeandalucia.es/centros/lib/javascript.php/1586950773/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://educacionadistancia.juntadeandalucia.es/centros/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Audio Player": "Audio Player",
+ "Video Player": "Video Player",
+ "Play": "Play",
+ "Pause": "Pause",
+ "Replay": "Replay",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Progress Bar": "Progress Bar",
+ "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "Volume Level": "Volume Level",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected",
+ "captions settings": "captions settings",
+ "subtitles settings": "subititles settings",
+ "descriptions settings": "descriptions settings",
+ "Text": "Text",
+ "White": "White",
+ "Black": "Black",
+ "Red": "Red",
+ "Green": "Green",
+ "Blue": "Blue",
+ "Yellow": "Yellow",
+ "Magenta": "Magenta",
+ "Cyan": "Cyan",
+ "Background": "Background",
+ "Window": "Window",
+ "Transparent": "Transparent",
+ "Semi-Transparent": "Semi-Transparent",
+ "Opaque": "Opaque",
+ "Font Size": "Font Size",
+ "Text Edge Style": "Text Edge Style",
+ "None": "None",
+ "Raised": "Raised",
+ "Depressed": "Depressed",
+ "Uniform": "Uniform",
+ "Dropshadow": "Dropshadow",
+ "Font Family": "Font Family",
+ "Proportional Sans-Serif": "Proportional Sans-Serif",
+ "Monospace Sans-Serif": "Monospace Sans-Serif",
+ "Proportional Serif": "Proportional Serif",
+ "Monospace Serif": "Monospace Serif",
+ "Casual": "Casual",
+ "Script": "Script",
+ "Small Caps": "Small Caps",
+ "Reset": "Reset",
+ "restore all settings to the default values": "restore all settings to the default values",
+ "Done": "Done",
+ "Caption Settings Dialog": "Caption Settings Dialog",
+ "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+ "End of dialog window.": "End of dialog window."
+});
+
+    });
+});;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'core/popover_region_controller'], function($, controller) {
+    var container = $('#nav-mail-popover-container');
+    var controller = new controller(container);
+    controller.registerListNavigationEventListeners();
+});
+;
+
+    require(['jquery', 'core/event'], function($) {
+		$ (document).ready (function () {
+            function expandCompress(el,animate){
+                var $this = el;
+				var $icon = $this.find ('i');
+                var $total = parseInt($navbar_height) + parseInt($header_height);
+
+                if ($this.data ('expanded')) {
+                    $this.data('expanded', false);
+                    sessionStorage.setItem('expand', 0);
+
+                    var $top = parseInt($navbar_height +18);
+                    var $height = parseInt($navbar_height + 40);
+
+                    if(animate){
+                        $('.message-drawer').animate({top: $navbar_height,});
+                    }else{
+                        $('.message-drawer').css({top: $navbar_height,});
+                    }
+                    $('.message-drawer').css({'height': 'calc(100% - ' + $navbar_height + 'px)'});
+
+					$icon.removeClass ('fa-expand').addClass ('fa-compress');
+                    if(animate){
+                        $navbar.animate ({'top': '0px'});
+                        $pagewrapper.animate ({'margin-top': '0px'});
+                        $pagelogin.animate ({'margin-top': '0px'});
+                        $navdrawer.animate ({'margin-top': $navbar_height + 'px'});
+                        $sidepre.animate({'top': $top + 'px'});
+                    }else{
+                        $navbar.css ({'top': '0px'});
+                        $pagewrapper.css ({'margin-top': '0px'});
+                        $pagelogin.css ({'margin-top': '0px'});
+                        $navdrawer.css ({'margin-top': $navbar_height + 'px'});
+                        $sidepre.css({'top': $top + 'px'});
+                    }
+					
+                    $sidepre.css('height', 'calc(100% - '+ $height + 'px)');
+					$navdrawer.css ({'height': 'calc(100% - ' + $navbar_height + 'px)'});
+                    $('.popover-region-notifications .popover-region-container').css({'top': $navbar_height+'px'});
+                    $('.popover-region-mail .popover-region-container').css({'top': $navbar_height+'px'});
+
+					$header.slideUp ();
+				} else {
+                    $this.data('expanded', true);
+                    sessionStorage.setItem('expand', 1);
+
+                    var $top = parseInt($navbar_height + $header_height +18);
+                    if(animate){
+                        $('.message-drawer').animate({top: $total});
+                    }else{
+                        $('.message-drawer').css({top: $total});
+                    }
+                    $('.message-drawer').css({'height': 'calc(100% - ' + $total  + 'px)'});
+
+					$icon.removeClass ('fa-compress').addClass ('fa-expand');
+                    if(animate){
+					    $navbar.animate ({'top': $header_height + 'px'});
+                        $pagewrapper.animate ({'margin-top': $header_height + 'px'});
+                        $pagelogin.animate ({'margin-top': $header_height + 'px'});
+                        $navdrawer.animate ({'margin-top': ($header_height + $navbar_height) + 'px'});
+                        $sidepre.animate({'top': $top + 'px'});
+                        $header.slideDown (400, function () {
+                            $sidepre.removeAttr('style');
+                            $navdrawer.removeAttr('style');
+                            $('.popover-region-notifications .popover-region-container').removeAttr('style');
+                            $('.popover-region-mail .popover-region-container').removeAttr('style');
+                        });
+                    }else{
+                        $navbar.css ({'top': $header_height + 'px'});
+                        $pagewrapper.css ({'margin-top': $header_height + 'px'});
+                        $pagelogin.css ({'margin-top': $header_height + 'px'});
+                        $navdrawer.css ({'margin-top': ($header_height + $navbar_height) + 'px'});
+                        $sidepre.css({'top': $top + 'px'});
+                        $header.slideDown (0, function () {
+                            $sidepre.removeAttr('style');
+                            $navdrawer.removeAttr('style');
+                            $('.popover-region-notifications .popover-region-container').removeAttr('style');
+                            $('.popover-region-mail .popover-region-container').removeAttr('style');
+                        });
+                    }
+				}
+            }
+			var $header = $ ('.header-ayesa');
+			var $header_height = $header.outerHeight ();
+			var $navbar = $ ('.fixed-top.navbar');
+            var $navbar_height = $navbar.outerHeight ();
+
+            if((!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0){
+                $header_height = $header.height();
+                $navbar_height = $navbar.height();
+            } 
+
+			$ ('.context-header-settings-menu').parent ('.d-flex').css ('float', 'right');
+
+			var $navbar = $ ('.fixed-top.navbar');
+			var $sidepre = $ ('#sidepre-blocks');
+			var $pagewrapper = $ ('#page-wrapper');
+			var $pagelogin = $ ('#page-login-index #page-wrapper');
+			var $navdrawer = $ ('#nav-drawer');
+
+			var $btnscroll = $ ('#btn-scroll-up');
+
+            var $expand = sessionStorage.getItem('expand');
+
+			$ ('#expand-compress-menu').click ( function () {
+                if ($(this).data ('expanded')) {
+                    M.util.set_user_preference("expandedNavigation", 1);
+                }else{
+                    M.util.set_user_preference("expandedNavigation", 0);
+                }
+                expandCompress($(this),true);
+			});
+
+            expandCompress($('#expand-compress-menu'),false);
+
+			$btnscroll.click (function () {
+				$("html, body").animate({ scrollTop: 0 }, 600);
+			});
+
+			window.onscroll = function() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) $btnscroll.css ('display', 'block');
+				else $btnscroll.css ('display', 'none');
+			};
+		});
+	});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+
+require(['theme_moove/metismenu', 'jquery'], function(metisMenu, $) {
+    $(".metismenu").metisMenu();
+});
+
+require([], function() {
+    var iconsearch = document.querySelector('.moove-search-input .slicon-magnifier');
+    var btnclosesearch = document.querySelector('.search-input-form .close-search');
+    var searchinputform = document.querySelector('.moove-search-input');
+
+    if (iconsearch) {
+
+        var togglesearchinputform = function() {
+            searchinputform.classList.toggle('expanded');
+        }
+
+        iconsearch.onclick = togglesearchinputform;
+        btnclosesearch.onclick = togglesearchinputform;
+    }
+});
+
+;
+require(["core/notification"], function(amd) { amd.init(1, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });;
+require(["core/page_global"], function(amd) { amd.init(); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\r\nMathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random5e978dfe0afd814'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5e978dfe0afd814'); });
+})();
+//]]>
+</script>
+
+    
+    </body>
+    </html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
